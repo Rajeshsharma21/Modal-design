@@ -1,0 +1,208 @@
+*,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.modal-header {
+  background: linear-gradient(273deg, #fffae0 0%, rgba(240, 255, 246, 0) 100%),
+    #ffc0c0;
+  padding: 6px;
+}
+.modal-body {
+  background: #f8f8f8 !important;
+  padding: 0;
+}
+.user-img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.detail-1 {
+  margin-left: 6px;
+}
+#name {
+  color: #00252f;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+#age {
+  color: rgba(0, 37, 47, 0.56);
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#resident {
+  color: #888;
+  font-family: Roboto;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+}
+#country {
+  display: inline;
+  padding: 0.2rem 0.4rem;
+  color: #666;
+  border-radius: 0.25rem;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  justify-content: right;
+  text-align: right;
+}
+
+.elapsed-time {
+  column-gap: 1rem;
+}
+
+.patient-info {
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+.more-detail-1 .box {
+  margin-bottom: 10px;
+  flex: 0 0 30%;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.1);
+}
+.more-detail-2 .box {
+  flex: 0 0 48%;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.1);
+}
+
+.box-title {
+  color: #aaa;
+  font-size: 0.625rem;
+  font-weight: 400;
+  margin: 10px;
+}
+.fas.desc-icon {
+  color: rgba(237, 131, 131, 1);
+}
+.box-desc {
+  color: #666;
+  font-size: 0.75rem;
+  font-weight: 400;
+  background-color: #fff6ef;
+  margin-top: 2px;
+  padding-left: 10px;
+}
+#bed-info {
+  color: #6c6c6c;
+}
+
+.other-detail {
+  padding: 0.5rem 0 3rem 0.4rem;
+  background-color: #f8f8f8;
+}
+.header-title {
+  font-size: 1.35rem;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+#time-title {
+  margin-left: 2px;
+  font-size: 0.5625rem;
+  margin-top: 30px 0;
+}
+#time {
+  color: #ff0042;
+  font-size: 0.625rem;
+  font-weight: 500;
+  border: none;
+  background-color: #fffefd;
+  padding: 2px 8px 2px;
+}
+
+b {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #555;
+}
+.date-time {
+  font-size: 0.625rem;
+  margin-left: 5px;
+  color: #616161;
+}
+span.desc-name {
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+.circle-container {
+  margin: auto;
+  width: 72%;
+}
+.time {
+  color: #888;
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3ab748;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle i {
+  font-size: 20px;
+  color: #f8f8f8;
+}
+
+.circle i.fa-check {
+  font-size: 30px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.line-connect {
+  display: flex;
+  position: relative;
+  right: 20%;
+}
+.time {
+  padding: 0 1rem;
+  width: 70px;
+}
+.line {
+  width: 2px;
+  height: 50px;
+  background-color: rgba(138, 169, 181, 0.24);
+  position: relative;
+  left: 24px;
+}
+.not-complete {
+  background-color: #fff;
+  filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.1));
+}
+i.fa-bed,
+i.fa-bed-pulse {
+  color: #6e6e6e;
+}
+
+/* Adjust the position of the lines */
+.circle:nth-child(2n) .line {
+  margin-top: -25px;
+}
+
+.circle-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 30px;
+  color: #f8f8f8;
+}
