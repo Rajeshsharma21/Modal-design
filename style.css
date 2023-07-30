@@ -4,6 +4,11 @@ p {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+.modal-dialog{
+  width: 80%;
+  margin: auto;
+}
 .modal-header {
   background: linear-gradient(273deg, #fffae0 0%, rgba(240, 255, 246, 0) 100%),
     #ffc0c0;
@@ -205,4 +210,15 @@ i.fa-bed-pulse {
   margin-top: 10px;
   font-size: 30px;
   color: #f8f8f8;
+}
+
+/*media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .time {
+    width: 55px;
+  }
+  .line {
+    left: 0;
+    right: 14px;
+  }
 }
